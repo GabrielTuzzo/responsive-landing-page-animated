@@ -29,21 +29,15 @@ li {
     font-weight: 600;
     z-index: 2;
 }
-.fa-angle-right  {
-    font-size: 26px;
-    transform: translateY(2px);
-    padding-left: 7px;
+.fa-magnifying-glass  {
+    font-size: 22px;
+    transform: translateY(-1px);
+    padding-left: 10px;
     color: rgb(14, 14, 14);
     transition: all .2s;
 }
 .button {
-    background: rgb(255, 255, 255);
-    opacity: 0.92;
-    width: 150px;
-    border-radius: 3px;
-    padding: 12px;
-    padding-right: 0;
-    z-index: 1;
+    margin-top: 15px;
 }
 .btn {
     font-size: 24px;
@@ -53,6 +47,9 @@ li {
     z-index: 1;
     color: black;
     font-family: 'Raleway', sans-serif;
+    background-color: #fff;
+    padding: 0.8rem 1.3rem;
+    border-radius: 3px;
 }
 .btn:hover > .fa-angle-right{
     padding-left: 7px;
