@@ -3,6 +3,32 @@
         gap: 20px;
     }
 }
+@media screen and (max-width:1500px) {
+    .header-ul {
+        gap: 20px;
+    }
+    .button {
+        margin-top: 13px;
+    }
+    .btn {
+        font-size: 20px;
+        padding: 0.8rem 1.1rem;
+    }
+    .fa-magnifying-glass  {
+        font-size: 19px;
+        padding-left: 8.5px;
+        transform: translateY(0);
+    }
+}
+@media screen and (max-width: 992px) {
+    .button {
+        margin-top: 10px;
+    }
+    .btn {
+        padding: 0.7rem 1rem;
+        border-radius: 3px;
+    }
+}
 @media screen and (max-width:900px) {
     .header-ul {
         display: none;
@@ -46,10 +72,6 @@
     }
 }
 @media screen and (max-height: 800px) and (max-width: 768px) {
-    .button {
-        padding: 7px;
-        width: 130px;
-    }
     .btn {
         font-size: 20px
     }
@@ -65,6 +87,19 @@
         font-size: 1rem;
         padding-bottom: 5px;
     }
+    .fa-bars {
+        font-size: 2rem;
+      }
+      .sub-title {
+        padding-top: 10px;
+        font-size: 1.1rem;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .active {
+        top: 3.8rem;
+    }
 }
 @media screen and (max-width: 768px) {
     .fa-bars {
@@ -79,6 +114,29 @@
     }
     .active {
         top: 3.8rem;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .button {
+        margin-top: 7px;
+    }
+    .btn {
+        font-size: 19px;
+        text-decoration: none;
+        transition: all .2s;
+        letter-spacing: 0.125rem;
+        z-index: 1;
+        color: black;
+        font-family: 'Raleway', sans-serif;
+        background-color: #fff;
+        padding: 0.6rem 0.8rem;
+        border-radius: 3px;
+    }
+    .fa-magnifying-glass  {
+        font-size: 17px;
+        transform: translateY(0);
+        padding-left: 5px;
     }
 }
 @media screen and (max-width: 680px) {
